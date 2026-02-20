@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    color: #6a0777
-    background-color: #191919;
+    color: #5d0269;
+    background-color: #b913e291;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -47,4 +47,16 @@ position: fixed;
 bottom: 0;
 width: 100%;
 }
-
+p {
+    font-size: 1.1cm;
+}
+a {
+    color: #a01e15;
+    text-decoration: none;
+}
+a-hover {
+    text-decoration: underline;
+}
+img {
+    border: 5px solid #a02709;
+}
