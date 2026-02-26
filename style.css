@@ -1,63 +1,62 @@
+/* Reset default browser spacing */
 body {
-    font-family: Arial, sans-serif;
-    color: #5d0269;
-    background-color: #b913e291;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    text-size-adjust: inherit;
+    font-family: Arial sans-serif;
+    background-color: #f4f4f4a1;
 }
+
+/* Header */
 header {
-    background-color: #b117e0;
-    color: white;
+    background-color: #30a7ec;
+    colour: White;
     padding: 20px;
     text-align: center;
 }
-header h1 {
-    margin: 0;
+
+/* Navigation */
+nav {
+    background-color: #b39eff;
+    padding: 10px;
+    text-align:justify ;
 }
 
-nav a {
-    color: white;
+nac a {
+    color: rgba(255, 255, 255, 0.24);
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
-nav a-hover {
+nav a:hover {
     text-decoration: underline;
 }
 
+/* Main Content */ 
 main {
     padding: 20px;
-    max-width: 10px;
-    margin: 0 auto;
-}
-main img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
 }
 
-footer {
-background-color: #6a0777;
-color: white;
-text-align: center;
-padding: 10px;
-position: fixed;
-bottom: 0;
-width: 100%;
+/* Section */
+section {
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
-p {
-    font-size: 1.1cm;
+
+/* Products */
+.product {
+    border: 1px solid #ccccccd7;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
-a {
-    color: #a01e15;
-    text-decoration: none;
+
+/* Footer */ 
+footer{
+    background-color: #30a7ec;
+    color: rgba(255, 255, 255, 0.479);
+    text-align: center;
+    padding: 10px;
 }
-a-hover {
-    text-decoration: underline;
-}
-img {
-    border: 5px solid #a02709;
-}
+
