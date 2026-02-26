@@ -16,7 +16,7 @@ header {
 /* Navigation */
 nav {
     background-color: #b39eff;
-    padding: 10px;
+    padding: 5px;
     text-align:justify ;
 }
 
@@ -25,23 +25,27 @@ nac a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    text-align: justify;
 }
 
 nav a:hover {
     text-decoration: underline;
+    text-align: justify;
 }
 
 /* Main Content */ 
 main {
-    padding: 20px;
+    padding: 6px;
+    text-align: justify;
 }
 
 /* Section */
 section {
     background-color: rgba(255, 255, 255, 0.507);
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
+    text-align: justify;
 }
 
 /* Products */
@@ -57,6 +61,6 @@ footer{
     background-color: #30a7ec;
     color: rgba(255, 255, 255, 0.479);
     text-align: center;
-    padding: 10px;
+    padding: 2px;
 }
 
