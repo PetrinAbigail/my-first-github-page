@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="with=device=with, initial scale=1.0">
-    <title> My First GitHub Page</title>
-    <!-- Bootstrap CSS-->
-         <link href="https://cdn.jsdelivr.net/npm/Bootstrap@5.3.0/dist/css/Bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First GitHub Page</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
 <body>
     <header>
-        <h1>Welcome to my website!</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Website</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <nav>
+                        <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                </nav>    
+        
     </header>
 
-    
-        <!--bootstrap tutorial 4-->
-            <main class="container my-5">
-            <div class="row">
-                <div class="col-md-8">
-                  <h2>Welcome to my website!</h2>
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Welcome to My Website</h2>
+                <p>This is a simple webpage hosted on GitHub Pages.</p>
+                <p>Here's a picture of a computer:</p>
 
-                    <p>This is a simple webpage hosted on GitHub pages.</p>
-                    <p>Here is a picture of a cute cat:</p>
-                    <img src="https://placekitten.com/200/300" alt="A cute kitten" class="img-fluid rounded">
-                    <p class="mt-3">Visit <a href="https://github.com" class="btn btn-primary">GitHub</a> to learn more about coding</p>
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                 alt="Coding on laptop"
+                class="img-fluid rounded shadow">
 
-   <div class="col-md-4">
+                <p class="mt-3">
+                    <a href="https://github.com"
+                       class="btn btn-primary">
+                       Visit GitHub
+                    </a>
+                </p>
+            </div>
+            
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Did You Know?</h5>
@@ -43,13 +60,13 @@
                 </div>
             </div>
         </div>                    
-    </Main>
+    </main>
 
     <footer>
-        <p>&copy: 2026 Petrin Abigail Munondo</p>
+        <p>&copy; 2026 Petrin Abigail Munondo</p>
     </footer>
-    <!-- Bootstrap JS and dependencies -->
-         <script src="https://cdn.jsdelivr.net/npm/@poperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-         <script src="https://cdn.jsdelivr.net/npm/Bootstrap@5.3.0/dist/js/Bootstrap.min.js"></script
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</script>  
 </body>
 </html>
