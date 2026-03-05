@@ -8,7 +8,7 @@ Selector{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    text-size-adjust: inherit;
+    
 }
 header {
     background-color: #b117e0;
@@ -26,20 +26,20 @@ nav a {
     margin: 0 10px;
 }
 
-nav a-hover {
+nav a:hover {
     text-decoration: underline;
 }
 
 main {
     padding: 20px;
-    max-width: 10px;
+    max-width: 800px;
     margin: 0 auto;
 }
 main img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 footer {
@@ -52,16 +52,17 @@ bottom: 0;
 width: 100%;
 }
 p {
-    font-size: 1.1cm;
+    font-size: 1.1em;
 }
 a {
     color: #a01e15;
     text-decoration: none;
 }
-a-hover {
+a:hover {
     text-decoration: underline;
 }
 img {
     border: 5px solid #a02709;
 
 }
+
