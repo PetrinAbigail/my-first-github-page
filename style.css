@@ -1,5 +1,5 @@
 Selector{
-   property: value; 
+    property: value;
 }
     body {
     font-family: Arial, sans-serif;
@@ -8,7 +8,7 @@ Selector{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    
+   
 }
 header {
     background-color: #b117e0;
@@ -63,6 +63,9 @@ a:hover {
 }
 img {
     border: 5px solid #a02709;
-
+    border-radius: 10px;
 }
-
+main a[href^="malito:"] {
+    color: #ff5722;
+    font-weight: bold;
+}
