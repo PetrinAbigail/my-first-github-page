@@ -1,4 +1,7 @@
-body {
+Selector{
+   property: value; 
+}
+    body {
     font-family: Arial, sans-serif;
     color: #5d0269;
     background-color: #b117e0;
@@ -60,4 +63,5 @@ a-hover {
 }
 img {
     border: 5px solid #a02709;
+
 }
